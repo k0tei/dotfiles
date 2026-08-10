@@ -6,3 +6,17 @@ vlc/
 VeraCrypt/
 nvim/
 keepassxc/
+calibre/
+dconf/
+baloofileinformationrc/
+enviroment.d/
+kiorc/
+mozilla/
+Electron/
+discord/
+procps/
+systemd/
+session/
+user-dirs.locale
+user-dirs.dirs
+
