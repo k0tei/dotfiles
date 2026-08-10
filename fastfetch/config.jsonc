@@ -19,8 +19,7 @@
     "separator",
     {
         "type": "custom",
-        "key": "┌─────────────────┐\u001b[37D",
-        "format": ""
+        "format": "\u001b[33m┌─────────────────┐ \u001b[0b",
     },
     {
         "type": "os",
@@ -28,26 +27,47 @@
         "keyColor": "yellow",
         "format": "{2}"
     },
-    "host",
-    "kernel",
-    "uptime",
-    "packages",
-    "shell",
+    {
+      "type": "host",
+      "key": "├  Host",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "kernel",
+      "key": "├  Kernel",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "uptime",
+      "key": "├ 󱑀 Uptime",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "packages",
+      "key": "├  Packages",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "shell",
+      "key": "├  Shell",
+      "keyColor": "yellow"
+    },
     {
         "type": "custom",
-        "key": "└─────────────────┘",
-        "format": ""
+        "format": "\u001b[33m└─────────────────┘"
     },
 
     "break",
 
     {
         "type": "custom",
-        "key": "┌─────────────────┐\u001b[37D",
-        "format": ""
+        "format": "\u001b[33m┌─────────────────┐\u001b[37D"
     },
-    "display",
-    "de",
+    {
+        "type": "display",
+        "key": "├ 󰍹 Display",
+        "keyColor": "yellow"
+    },
     {
         "type": "wm",
         "key": "├  DE/WM",
@@ -55,34 +75,70 @@
     },
     "wmtheme",
     "theme",
-    "icons",
-    "font",
-    "cursor",
-    "terminal",
-    "terminalfont",
+    {
+        "type": "icons",
+        "key": "├  Icons",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "font",
+        "key": "├  Font",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "cursor",
+        "key": "├  Cursor",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "terminal",
+        "key": "├  Terminal",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "terminal",
+        "key": "├  Terminal",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "terminalfont",
+        "key": "├  Terminal Font",
+        "keyColor": "yellow"
+    },
     {
         "type": "custom",
-        "key": "└─────────────────┘",
-        "format": ""
+        "format": "\u001b[33m└─────────────────┘"
     },
     "break",
     {
         "type": "custom",
-        "key": "┌─────────────────┒\u001b[37D",
-        "format": ""
+        "format": "\u001b[33m┌─────────────────┒\u001b[37D"
     },
-    "cpu",
-    "gpu",
-    "memory",
-    "swap",
-    "disk",
+    {
+        "type": "cpu",
+        "key": "├  CPU",
+    },
+    {
+        "type": "gpu",
+        "key": "├ 󰨜 GPU",
+    },
+    {
+        "type": "swap",
+        "key": "├  Swap",
+    },
+    {
+        "type": "disk",
+        "key": "├ 󱛟 Disk",
+    },
     "battery",
     "poweradapter",
-    "locale",
+    {
+        "type": "locale",
+        "key": "├   Locale",
+    },
     {
         "type": "custom",
-        "key": "└─────────────────┘",
-        "format": ""
+        "format": "\u001b[33m└─────────────────┘"
     },
     "break",
 
