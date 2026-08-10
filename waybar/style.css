@@ -1,0 +1,84 @@
+/* Waybar — Catppuccin (mocha) — máxima compatibilidade */
+
+/* fonte */
+* {
+  font-family: "JetbrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 1px;
+}
+
+/* sem fundo geral */
+window#waybar {
+  background-color: transparent;
+  color: #cdd6f4;
+  padding: 4px 6px;
+}
+
+/* módulos como pílulas (outline leve) */
+.module {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background-color: #303446;
+  border: 1px solid rgba(203, 160, 247, 0.96);
+  /* mauve leve */
+  color: #cdd6f4;
+}
+
+/* hover discreto */
+.module:hover {
+  background-color: rgba(203, 160, 247, 0.06);
+  border-color: rgba(203, 160, 247, 0.18);
+}
+
+/* container workspaces */
+#workspaces {
+  padding: 0 6px;
+  margin: 0;
+}
+
+/* botões dos workspaces: sem width/height, criamos 'bolinha' via padding + border-radius */
+#workspaces button {
+  min-width: 14px;
+  min-height: 14px;
+  padding: 2px 8px;
+  /* pequeno espaço interno — evita esticar demais */
+  margin: 0 3px;
+  /* espaço entre bolinhas */
+  border-radius: 999px;
+  /* torna arredondado; sem height/width evita erro */
+  background-color: #45475a;
+  /* inativo */
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  font-size: 14px;
+  /* força conteúdo quase nulo para não esticar */
+  /* linha curta — geralmente aceita */
+  transition: 0.2s ease;
+}
+
+/* ativo = branco */
+#workspaces button.active {
+  background-color: #0B1C2D;
+  border-color: rgba(255, 255, 255, 1);
+  color: #FFD400;
+  transition: all 0.3s ease;
+}
+
+/* hover */
+#workspaces button:hover {
+  background-color: #cba6f7;
+  border-color: rgba(203, 160, 247, 1);
+  animation: ws_hover 20s ease-in-out 1;
+  transition: all 0.5s cubic-bezier(.55, -0.68, .48, 1.682);
+}
+
+/* ajustes simples para ícones/textos dentro dos módulos */
+.module>* {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+#custom-notification {
+  font-family: "JetbrainsMono Nerd Font";
+}

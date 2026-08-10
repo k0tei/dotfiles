@@ -1,0 +1,114 @@
+@define-color cc-bg #1e1e2e;
+@define-color cc-mantle #181825;
+@define-color cc-crust #11111b;
+
+@define-color noti-bg #1e1e2e;
+@define-color noti-bg-alt #181825;
+
+@define-color text-main #cdd6f4;
+@define-color text-sub #a6adc8;
+
+@define-color accent #fab387;
+@define-color accent-alt #b4befe;
+@define-color border-color #45475a;
+
+/* fonte global */
+
+* {
+  font-family: JetBrainsMono NFP;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* control center */
+
+.control-center {
+  background: @cc-bg;
+  border: 2px solid @border-color;
+  border-radius: 10px;
+  min-width: 520px;
+  padding: 10px;
+}
+
+/* cada notificação */
+
+.notification-row {
+  margin: 10px 6px;
+}
+
+/* largura da notificação */
+
+.notification {
+  background: transparent;
+  min-width: 420px;
+}
+
+/* conteúdo da notificação */
+
+.notification-content {
+  background: @noti-bg;
+  padding: 18px;
+  min-height: 110px;
+
+  border: 2px solid @border-color;
+  border-radius: 8px;
+}
+
+/* hover */
+
+.control-center .notification-row:hover {
+  background: @noti-bg-alt;
+  border-radius: 8px;
+}
+
+/* título */
+
+.summary {
+  font-size: 16px;
+  color: @text-main;
+  font-weight: 500;
+}
+
+/* corpo */
+
+.body {
+  font-size: 14px;
+  color: @text-sub;
+  margin-top: 6px;
+}
+
+/* tempo */
+
+.time {
+  font-size: 11px;
+  color: @accent-alt;
+}
+
+/* botão fechar */
+
+.close-button {
+  background: @accent;
+  color: @cc-crust;
+  border-radius: 6px;
+  margin: 6px;
+  padding: 4px 8px;
+}
+
+.close-button:hover {
+  background: @accent-alt;
+  color: @cc-crust;
+}
+
+/* botões de ação */
+
+.notification-action {
+  background: @noti-bg-alt;
+  color: @text-main;
+  border-top: 1px solid @border-color;
+  border-radius: 0 0 8px 8px;
+  padding: 8px;
+}
+
+.notification-action:hover {
+  background: @cc-mantle;
+}
