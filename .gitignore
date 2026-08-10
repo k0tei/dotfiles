@@ -14,9 +14,26 @@ kiorc/
 mozilla/
 Electron/
 discord/
+mpv/
 procps/
 systemd/
 session/
+GIMP/
+LM Studio/
+LM-Studio/
+QtProject.conf
+baloofileinformationrc
+btop/
+environment.d/
+filetypesrc
+gtk-3.0/
+gtk-4.0/
+pulse/
+htop/
+mimeapps.list
+pavucontrol.ini
+trashrc
+kiorc
 user-dirs.locale
 user-dirs.dirs
-
+dolphinrc
