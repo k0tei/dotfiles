@@ -15,8 +15,6 @@
     }
   },
   "modules": [
-    "title",
-    "separator",
     {
       "type": "custom",
       "format": "\u001b[33m┌────────────┐ \u001b[0b"
@@ -26,6 +24,12 @@
       "key": "├  OS       │{#keys}",
       "keyColor": "yellow",
       "format": "{2}"
+    },
+    {
+      "type": "title",
+      "key": "├  User     │{#keys}",
+      "keyColor": "yellow",
+      "format": "{1}"
     },
     {
       "type": "host",
