@@ -126,7 +126,7 @@
     "poweradapter",
     {
       "type": "locale",
-      "key": "├   Locale  │{#keys}"
+      "key": "├  Locale   │{#keys}"
     },
     {
       "type": "custom",
