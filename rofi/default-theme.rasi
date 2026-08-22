@@ -11,10 +11,10 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				#151515;
+	bg:				rgba(13,13,13,0.6);
 	fg:				#e8e8d3;
 	accent:				#687363;
-	button:				#1c1c1c;
+	button:				rgba(28,28,28,0.3);
 
 	background-color:		@bg;
 	text-color:			@fg;
