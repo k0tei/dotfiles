@@ -1,5 +1,4 @@
-@import "theme.css";
-
+/* fonte */
 * {
   font-family: "JetbrainsMono Nerd Font", monospace;
   font-size: 13px;
@@ -9,21 +8,21 @@
 
 window#waybar {
   background-color: transparent;
-  color: @on_surface;
+  color: #cdd6f4;
   padding: 4px 6px;
 }
 
 .module {
   padding: 4px 10px;
   border-radius: 10px;
-  background-color: @surface_container;
-  border: 1px solid @outline_variant;
-  color: @on_surface;
+  background-color: #303446;
+  border: 1px solid rgba(13, 13, 13, 0.96);
+  color: #cdd6f4;
 }
 
 .module:hover {
-  background-color: @surface_container_highest;
-  border-color: @primary;
+  background-color: rgba(203, 160, 247, 0.06);
+  border-color: rgba(203, 160, 247, 0.18);
 }
 
 #workspaces {
@@ -35,25 +34,25 @@ window#waybar {
   min-width: 14px;
   min-height: 14px;
   padding: 2px 8px;
-  margin: 2px 3px;
+  margin: 2 3px;
   border-radius: 30px;
-  background-color: @surface_container_high;
-  border: 1px solid @outline_variant;
-  color: @on_surface_variant;
+  background-color: #45475a;
+  border: 1px solid rgba(255, 255, 255, 0.04);
   font-size: 14px;
   transition: 0.2s ease;
 }
 
+/* ativo = branco */
 #workspaces button.active {
-  background-color: @primary_container;
-  border-color: @primary;
-  color: @on_primary_container;
+  background-color: #0B1C2D;
+  border-color: rgba(249, 218, 37, 1);
+  color: #FFD400;
   transition: all 0.3s ease;
 }
 
 #workspaces button:hover {
-  background-color: @secondary_container;
-  border-color: @secondary;
+  background-color: #cba6f7;
+  border-color: rgba(203, 160, 247, 1);
   animation: ws_hover 20s ease-in-out 1;
   transition: all 0.5s cubic-bezier(.55, -0.68, .48, 1.682);
 }

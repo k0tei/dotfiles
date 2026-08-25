@@ -1,16 +1,4 @@
-@define-color cc-bg #1e1e2e;
-@define-color cc-mantle #181825;
-@define-color cc-crust #11111b;
-
-@define-color noti-bg #1e1e2e;
-@define-color noti-bg-alt #181825;
-
-@define-color text-main #cdd6f4;
-@define-color text-sub #a6adc8;
-
-@define-color accent #fab387;
-@define-color accent-alt #b4befe;
-@define-color border-color #45475a;
+@import "theme.css";
 
 /* fonte global */
 

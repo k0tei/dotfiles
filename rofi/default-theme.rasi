@@ -11,10 +11,10 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				#151515;
-	fg:				#e8e8d3;
-	accent:				#687363;
-	button:				#1c1c1c;
+	bg:				rgba(13,13,13,1);
+	fg:				rgba(232,232,211,1);
+	accent:				rgba(210,115,99,1);
+	button:				rgba(28,28,28,1);
 
 	background-color:		@bg;
 	text-color:			@fg;
@@ -22,8 +22,8 @@ configuration {
 
 window {
 	border-radius:                  7px;
-	width:			    	40%;
-	padding: 			22px;
+	width:			    	25%;
+	padding: 			8px;
 }
 
 prompt {

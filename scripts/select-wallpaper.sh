@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="$HOME/Imagens/Wallpaper"
+DIR="$HOME/.config/Wallpapers"
 CACHE="$HOME/.cache/current_wallpaper"
 ROFI_THEME="$HOME/.config/rofi/wallpaper.rasi"
 

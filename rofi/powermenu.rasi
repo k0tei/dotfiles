@@ -8,8 +8,6 @@ configuration {
 	sidebar-mode: 			false;
 }
 
-@theme "/dev/null"
-
 * {
 	bg:				#151515;
 	fg:				#e8e8d3;
@@ -22,8 +20,8 @@ configuration {
 
 window {
 	border-radius:                  7px;
-	width:			    	50%;
-	padding: 			32px;
+	width:			    	30%;
+	padding: 			10px;
 }
 
 prompt {

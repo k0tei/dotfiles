@@ -1,0 +1,4 @@
+	bg: {{ colors.surface.dark.hex }};
+	fg:			{{ colors.on_surface.dark.hex }};
+	accent:		{{ colors.secondary_container.default.hex }};
+	button:	{{ colors.on_secondary_container.default.hex }};
