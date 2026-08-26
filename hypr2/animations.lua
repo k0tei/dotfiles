@@ -1,1 +1,6 @@
-hl.animation({ leaf = "workspaces", enable = true, speed = 8, curve = "default", style = "popin 70%" })
+hl.animation({ leaf = "fadeIn", enable = true, speed = 8, curve = "default", style = "slide left" })
+hl.animation({ leaf = "layerIn", enable = true, speed = 8, curve = "default", style = "slide left" })
+hl.animation({ leaf = "layerOut", enable = true, speed = 8, curve = "default", style = "slide right" })
+hl.animation({ leaf = "workspaces", enable = true, speed = 8, curve = "default", style = "slidefade 40%" })
+hl.animation({ leaf = "workspacesIn", enable = true, speed = 8, curve = "default", style = "slide 60%" })
+hl.animation({ leaf = "workspacesOut", enable = true, speed = 8, curve = "default", style = "slide 60%" })
