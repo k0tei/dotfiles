@@ -3,7 +3,6 @@ configuration{
     font:				"JetbrainsMono Nerd Font 10";
     show-icons:                     true;
     icon-theme: 			"Reversal-dark";
-    terminal: "alacritty";
     drun-display-format: "{icon} {name}";
     disable-history: false;
     sidebar-mode: false;
@@ -44,7 +43,7 @@ configuration{
 window {
 	border-radius:                  7px;
 	width:			    	40%;
-	padding: 			22px;
+	padding: 			5px;
   margin:       2px;
 }
 
