@@ -17,5 +17,6 @@ hl.config({
 })
 
 hl.bind(mainMod .. "+ R", hl.dsp.exec_cmd("pkill rofi || rofi"), { release = true })
-hl.bind(mainMod .. "+ R", hl.dsp.exec_cmd("nemo"))
-hl.bind(mainMod .. "+ R", hl.dsp.exec_cmd("kill"))
+hl.bind(mainMod .. "+ D", hl.dsp.exec_cmd("nemo"))
+hl.bind(mainMod .. "+ Q", hl.dsp.exec_cmd("kill"))
+hl.bind(mainMod .. "+ Q", hl.dsp.exec_cmd("killactive"))
