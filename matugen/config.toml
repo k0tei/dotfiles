@@ -31,7 +31,7 @@ post_hook = 'pkill waybar && waybar &'
 
 
 [templates.rofi]
-input_path = '~/.config/matugen/templates/colors.toml'
+input_path = '~/.config/matugen/templates/rofi.rasi'
 output_path = '~/.config/rofi/theme.rasi'
 
 

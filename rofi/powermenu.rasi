@@ -8,11 +8,14 @@ configuration {
 	sidebar-mode: 			false;
 }
 
+@theme "/dev/null"
+@theme "~/.config/rofi/theme.rasi"
+
 * {
-	bg:				#151515;
-	fg:				#e8e8d3;
-	accent:				#687363;
-	button:				#1c1c1c;
+	bg:				@surface-container-lowest; 
+	fg:				#ffffff;                   
+	accent:				@primary;                  
+	button:				@surface-container;        
 
 	background-color:		@bg;
 	text-color:			@fg;

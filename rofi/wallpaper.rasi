@@ -29,17 +29,7 @@ configuration{
 
 
 @theme "/dev/null"
-
-* {
-	bg:				#151515;
-	fg:				#e8e8d3;
-	accent:				#687363;
-	button:				#1c1c1c;
-
-	background-color:		@bg;
-	text-color:			@fg;
-}
-
+@theme "~/.config/rofi/default-theme.rasi"
 window {
 	border-radius:                  7px;
 	width:			    	40%;
@@ -48,7 +38,6 @@ window {
 }
 
 prompt {
-	background-color:		@button;
 	enabled:			true;
 	padding:			0.5% 32px 0% -0.5%;
 	font:				"JetbrainsMono Nerd Font 10";
@@ -56,16 +45,13 @@ prompt {
 
 entry {
     	placeholder:			"Search";
-	font:				"JetbrainsMono Nerd Font 10";
-	background-color:               @button;
-    	placeholder-color:              @fg;
+      font:				"JetbrainsMono Nerd Font 10";
     	expand:                         true;
     	padding:                        0.5% 0% 0% 0%;
 }
 
 inputbar {
 	children:			[ prompt, entry ];
-    	background-color:               @button;
     	expand:                         false;
     	border-radius:                  6px;
     	margin:                         0%;
@@ -103,12 +89,6 @@ element-text {
     	margin:                         0.5% 0.5% -0.5% 0.5%;
 }
 
-element-text, element-icon {
-	background-color:		inherit;
-	text-color:			inherit;
-}
-
 element selected {
-    	background-color:               @button;
     	border-radius:                  6px;
 }
