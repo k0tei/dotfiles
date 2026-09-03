@@ -1,3 +1,6 @@
+hl.animation({ leaf = "windows", enable = true, speed = 8, curve = "default", style = "slide left" })
+hl.animation({ leaf = "windowsIn", enable = true, speed = 8, curve = "default", style = "slide left" })
+hl.animation({ leaf = "windowsOut", enable = true, speed = 8, curve = "default", style = "popin 80%" })
 hl.animation({ leaf = "fadeIn", enable = true, speed = 8, curve = "default", style = "slide left" })
 hl.animation({ leaf = "layerIn", enable = true, speed = 8, curve = "default", style = "slide left" })
 hl.animation({ leaf = "layerOut", enable = true, speed = 8, curve = "default", style = "slide right" })
